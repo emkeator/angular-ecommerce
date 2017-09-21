@@ -3,7 +3,7 @@ angular.module('ecommerce').component('product', {
   //  Just like a view, we can specify a template url
   templateUrl:'app/components/product/product.html',
   // Components have a different way of dealing with scope
-  // Instead of ijecting $scope into our controller.  We use the
+  // Instead of injecting $scope into our controller.  We use the
   // controller itself as our scope.  This turns our controller into
   // a constructor function format. So we will access it through this
   // inside of our controller, and as pd (in this case) from our html
